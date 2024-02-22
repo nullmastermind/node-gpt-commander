@@ -29,6 +29,7 @@ const main = async () => {
     if (resultText !== highlightedText) {
       // Pressed OK
       await send("^v");
+      await clipPut(resultText);
     }
   }
 

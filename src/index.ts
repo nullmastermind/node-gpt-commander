@@ -11,6 +11,7 @@ const main = async () => {
   const currentClip = await clipGet();
   await clipPut("");
   await send("^c");
+  await new Promise((rel) => setTimeout(rel, 50));
   let highlightedText = await clipGet();
 
   if (!highlightedText) {

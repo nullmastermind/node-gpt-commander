@@ -6,12 +6,13 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist && tsc",
-    "start": "npm run build && node dist/index.js"
+    "start": "ts-node src/index.ts"
   },
   "devDependencies": {
     "@types/node": "^20.11.19",
     "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
   "dependencies": {

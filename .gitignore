@@ -10,3 +10,4 @@ npm-debug.log
 out/
 dist
 tools/gen.ts
+bin/history

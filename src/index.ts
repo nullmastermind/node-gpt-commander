@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { clipGet, clipPut, init, mouseGetPos, send } from "node-autoit-koffi";
 import path from "node:path";
 import { execSync } from "node:child_process";

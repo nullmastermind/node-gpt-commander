@@ -4,6 +4,9 @@
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "bin": {
+    "nodegptcommander": "./dist/index.js"
+  },
   "scripts": {
     "build": "rimraf dist && tsc",
     "start": "ts-node src/index.ts"

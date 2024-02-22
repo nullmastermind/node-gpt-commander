@@ -30,6 +30,8 @@ const main = async () => {
       // Pressed OK
       await send("^v");
       await clipPut(resultText);
+
+      return;
     }
   }
 
